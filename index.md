@@ -2,8 +2,6 @@
 layout: default
 ---
 
-[CV](files/CV_yassin_ben_allal.pdf)
-
 # About me
 
 I am Yassin Ben Allal. Currently I am pursuing a Master’s degree in Artificial Intelligence at the VU Amsterdam.
