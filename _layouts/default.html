@@ -29,11 +29,6 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <img width="400px" src="{{site.image | relative_url}}" alt="Logo" />
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <i class="fa fa-github" style="font-size:48px;color:aliceblue"></i>
-      <i class="fa fa-linkedin-square" style="font-size:48px;color:aliceblue"></i>
       {{ content }}
 
       <footer class="site-footer">
