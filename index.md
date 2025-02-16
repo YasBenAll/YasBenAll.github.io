@@ -1,15 +1,3 @@
----
-layout: default
----
-
 # About me
 
-I am Yassin Ben Allal. Currently I am pursuing a Master’s degree in Artificial Intelligence at the VU Amsterdam.
-
-## Education
-
-- MSc Artificial Intelligence, 2021 ~
-  Vrije Universiteit Amsterdam
-
-- BSc Information Science, 2018 - 2021
-  University of Amsterdam
+I am Yassin Ben Allal. I've finished my degree in Artificial Intelligence and I'm currently looking for a job!
