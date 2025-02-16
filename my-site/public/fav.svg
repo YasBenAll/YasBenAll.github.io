@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Blue circular background -->
+  <circle cx="32" cy="32" r="32" fill="#007BFF" />
+  <!-- White "Y" in the center -->
+  <text x="32" y="44" text-anchor="middle" fill="#FFFFFF" font-size="36" font-family="Arial, sans-serif" font-weight="bold">
+    Y
+  </text>
+</svg>
