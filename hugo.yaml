@@ -191,6 +191,8 @@ using the SQL workflow tool dbt to facilitate AI models used in healthcare."
 
           In my thesis, I developed a multi-objective reinforcement learning framework that simultaneously optimizes user engagement and content diversity in large-scale recommender systems. By building a custom simulation and testing different policies, I showed how deep RL methods can discover flexible trade-offs among competing objectives—leading to more dynamic, user-centric recommendations.
 
+          Experiments were conducted on the supercomputer infrastructure DAS-6. 
+
         featuredLink:
           enable: true
           name: "Master's Thesis"
@@ -198,7 +200,7 @@ using the SQL workflow tool dbt to facilitate AI models used in healthcare."
 
       - title: "BSc Information science"
         school:
-          name: "Universiteit van Amsterdam"
+          name: "University of Amsterdam"
           url: "https://www.uva.nl"
         date: "2018 - 2021"
         GPA: "7.7"
