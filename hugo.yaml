@@ -220,8 +220,8 @@ using the SQL workflow tool dbt to facilitate AI models used in healthcare."
     # title: "Custom Name"
     items:
       - title: Kaggle Award for the Machine Learning Reproducibility Challenge
-        content: As part of the Machine Learning Reproducibility Challenge 2022, the above research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform.
-        url: https://www.kaggle.com/reproducibility-challenge-2022#:~:text=Authors%3A%20Valentin%20Leonhard,enough%20training%20data.
+        content: As part of the Machine Learning Reproducibility Challenge 2022, the above research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform. The paper was presented at the NeurIPS conference in 2023.
+        url: https://neurips.cc/virtual/2023/poster/74170
         # image: /images/achievement.jpg
   
   # projects
