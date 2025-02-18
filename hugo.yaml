@@ -35,11 +35,6 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -136,7 +131,7 @@ params:
     intro: "Hi, my name is"
     title: "Yassin."
     subtitle: "I'm an aspiring ML engineer"
-    content: "A passionate software developer with a strong interest in machine learning and artificial intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI."
+    content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems."
     image: /images/photo.png
     bottomImage:
       enable: true
@@ -145,8 +140,8 @@ params:
       enable: true
       name: "Resume"
       url: "cv/cv_YassinBenAllal2024-english.pdf"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -158,56 +153,70 @@ params:
 
 
   # # Experience
-  # experience:
-  #   enable: true
-  #   # title: "Custom Name"
-  #   items:
-  #     - job: "Research Assistant"
-  #       company: ""
-  #       companyUrl: "https://example.com"
-  #       date: "Jan 2022 - present"
-  #       featuredLink:
-  #         enable: true
-  #         name: "View the project"
-  #         url: "https://example.com"
-  #       content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Research Assistant"
+        company: "ASCoR"
+        companyUrl: https://ascor.uva.nl/"
+        date: "Aug 2021 - feb 2024"
+        content: |
+          - Developed recommender system-based chatbots using Python for experimental research at ASCOR. Built the frontend using the JavaScript library React.
+          - Established and programmed (Python) social robotics research, translating theoretical concepts into practical, executable experiments.
+      - job: "Data Engineer"
+        company: "Oxaigen"
+        companyUrl: "https://www.oxaigen.com/"
+        date: "Jun 2022 - Sep 2022"
+        content: "Responsible for setting up data pipelines
+using the SQL workflow tool dbt to facilitate AI models used in healthcare."
   # Education
-  # education:
-  #   enable: true
-  #   title: "Onderwijs"
-  #   index: false
-  #   items:
-  #     - title: "MSc Artificial Intelligence"
-  #       school:
-  #         name: "Vrije Universiteit Amsterdam"
-  #         url: "https://example.org"
-  #       date: "2021 - 2024"
-  #       # GPA: "7.7"
-  #       content: |-
-  #         During this program, I explored various paradigms in the field of Artificial Intelligence: Natural Language Processing, Computer Vision, Reinforcement Learning, and Social Robotics.
-  #     - title: "BSc Information science"
-  #       school:
-  #         name: "Universiteit van Amsterdam"
-  #         url: "https://example.org"
-  #       date: "2018 - 2021"
-  #       # GPA: "3.9 out of 5.0"
-  #       content: |-
-  #         Information Science is the study that focuses on translating ICT into its role within an organization. During this program, I completed a variety of business and programming courses, often collaborating on projects in teams.
+  education:
+    enable: true
+    title: "Education"
+    index: false
+    items:
+      - title: "MSc Artificial Intelligence"
+        school:
+          name: "Vrije Universiteit Amsterdam"
+          url: "https://vu.nl"
+        date: "2021 - 2024"
+        GPA: "7.7"
+        content: |-
+          - Computer Vision
+          - Reinforcement Learning
+          - Natural Language Processing
+          - Deep Learning
+          - Social Robotics
 
-  #       # featuredLink:
-  #       #   enable: true
-  #       #   name: "My academic record"
-  #       #   url: "https://example.com"
-  #     - title: "Voorbereidend Wetenschappelijk Onderwijs"
-  #       school:
-  #         name: "Veenlanden College Mijdrecht"
-  #         url: "https://veenlandencollege.nl/"
-  #       date: "2010 - 2016"
+          In my thesis, I developed a multi-objective reinforcement learning framework that simultaneously optimizes user engagement and content diversity in large-scale recommender systems. By building a custom simulation and testing different policies, I showed how deep RL methods can discover flexible trade-offs among competing objectives—leading to more dynamic, user-centric recommendations.
+
+        featuredLink:
+          enable: true
+          name: "Master's Thesis"
+          url: "thesis/Master_Thesis.pdf"
+
+      - title: "BSc Information science"
+        school:
+          name: "Universiteit van Amsterdam"
+          url: "https://www.uva.nl"
+        date: "2018 - 2021"
+        GPA: "7.7"
+        content: |-
+          - Data Science
+          - Statistics
+          - Interaction Design
+
+          In my bachelor thesis, I explored why people share misleading COVID-19 information online. By conducting an online survey and analyzing social and psychological factors such as the need for connection and altruism, I found that while many variables had little impact, altruism emerged as a key driver behind misinformation sharing.
+
+        featuredLink:
+          enable: true
+          name: "Bachelor Thesis"
+          url: "thesis/Bachelor_Thesis.pdf"
   # Achievements
 
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
       - title: Kaggle Award for the Machine Learning Reproducibility Challenge
