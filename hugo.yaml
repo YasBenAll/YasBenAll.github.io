@@ -207,22 +207,21 @@ params:
   # Achievements
 
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Kaggle Award for the Machine Learning Reproducibility Challenge
         content: As part of the Machine Learning Reproducibility Challenge 2022, the above research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform.
         url: https://www.kaggle.com/reproducibility-challenge-2022#:~:text=Authors%3A%20Valentin%20Leonhard,enough%20training%20data.
-        image: /images/achievement.jpg
+        # image: /images/achievement.jpg
   
   # projects
   projects:
-    enable: true
+    enable: false
     title: "Publications"
     items:
       - title: Master Thesis
         content: My thesis
-        image: /images/projects/converter.jpg
         featured:
           name: Paper
           link: /thesis/Master_Thesis.pdf
