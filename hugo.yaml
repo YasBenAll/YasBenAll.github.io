@@ -139,7 +139,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "cv/cv_YassinBenAllal2024-english.pdf"
+      url: "cv/cv_YassinBenAllal2024.pdf"
       download: false
       newPage: true
     socialLinks:
@@ -189,9 +189,9 @@ using the SQL workflow tool dbt to facilitate AI models used in healthcare."
           - Deep Learning
           - Social Robotics
 
-          In my thesis, I developed a multi-objective reinforcement learning framework that simultaneously optimizes user engagement and content diversity in large-scale recommender systems. By building a custom simulation and testing different policies, I showed how deep RL methods can discover flexible trade-offs among competing objectives—leading to more dynamic, user-centric recommendations.
+          In my thesis, I developed a multi-objective reinforcement learning (RL) framework that simultaneously optimizes user engagement and content diversity in large-scale recommender systems. By building a custom simulation and testing different policies, I showed how deep RL methods can discover flexible trade-offs among competing objectives—leading to more dynamic, user-centric recommendations.
 
-          Experiments were conducted on the supercomputer infrastructure DAS-6. 
+          Experiments were conducted on the supercomputer infrastructure _DAS-6_. 
 
         featuredLink:
           enable: true
