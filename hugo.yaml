@@ -131,7 +131,7 @@ params:
     intro: "Hi, my name is"
     title: "Yassin."
     subtitle: "I'm an aspiring ML engineer"
-    content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems."
+    content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems. This website showcases my projects, experience, and education."
     image: /images/photo.png
     bottomImage:
       enable: true
@@ -139,7 +139,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "cv/cv_YassinBenAllal2024.pdf"
+      url: "cv/resume_YassinBenAllal2025.pdf"
       download: false
       newPage: true
     socialLinks:
@@ -157,19 +157,18 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Research Assistant"
-        company: "ASCoR"
-        companyUrl: https://ascor.uva.nl/"
-        date: "Aug 2021 - feb 2024"
-        content: |
-          - Developed recommender system-based chatbots using Python for experimental research at ASCOR. Built the frontend using the JavaScript library React.
-          - Established and programmed (Python) social robotics research, translating theoretical concepts into practical, executable experiments.
       - job: "Data Engineer"
         company: "Oxaigen"
         companyUrl: "https://www.oxaigen.com/"
         date: "Jun 2022 - Sep 2022"
-        content: "Responsible for setting up data pipelines
-using the SQL workflow tool dbt to facilitate AI models used in healthcare."
+        content: "Responsible for setting up data pipelines using the SQL workflow tool dbt to facilitate AI models used in healthcare."
+      - job: "Research Assistant"
+        company: "ASCoR"
+        companyUrl: https://ascor.uva.nl/research/research.html
+        date: "Aug 2021 - feb 2024"
+        content: |
+          - Developed recommender system-based chatbots using Python for experimental research at the Amsterdam School of Communication Research (ASCoR). Built the frontend using the JavaScript library React.
+          - Established and programmed (Python) social robotics research, translating theoretical concepts into practical, executable experiments.
   # Education
   education:
     enable: true
@@ -207,45 +206,41 @@ using the SQL workflow tool dbt to facilitate AI models used in healthcare."
         content: |-
           - Data Science
           - Statistics
-          - Interaction Design
+          - Human-Computer Interaction
 
           In my bachelor thesis, I explored why people share misleading COVID-19 information online. By conducting an online survey and analyzing social and psychological factors such as the need for connection and altruism, I found that while many variables had little impact, altruism emerged as a key driver behind misinformation sharing.
-
         featuredLink:
           enable: true
-          name: "Bachelor Thesis"
+          name: "Bachelor's Thesis"
           url: "thesis/Bachelor_Thesis.pdf"
   # Achievements
 
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Kaggle Award for the Machine Learning Reproducibility Challenge
-        content: As part of the Machine Learning Reproducibility Challenge 2022, the above research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform. The paper was presented at the NeurIPS conference in 2023.
-        url: https://neurips.cc/virtual/2023/poster/74170
-        # image: /images/achievement.jpg
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Kaggle Award for the Machine Learning Reproducibility Challenge
+  #       content: As part of the Machine Learning Reproducibility Challenge 2022, the above research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform. The paper was presented at the NeurIPS conference in 2023.
+  #       url: https://neurips.cc/virtual/2023/poster/74170
+  #       # image: /images/achievement.jpg
   
   # projects
   projects:
-    enable: false
-    title: "Publications"
+    enable: true
+    title: "Projects"
     items:
-      - title: Master Thesis
-        content: My thesis
+      - title: AI Report (POKI) Transcripts
+        content: This is a website I built that contains transcripts of the AI Report podcast by Alexander Klöpping and Wietse Hage. The website is built using Next.js and hosted on Vercel. The transcripts are generated using the open-source Whisper model.
+        image: /images/poki_transcripts.png
         featured:
-          name: Paper
-          link: /thesis/Master_Thesis.pdf
-        badges:
-          - "Reinforcement Learning"
-          - "Deep Learning"
-
+          name: Website
+          link: https://ai-report-podcast-transcripts.vercel.app/
       - title: Reproducibility Challenge 2022 - Fairness Guarantees
-        content: In this research paper, we examine the fairness algorithm Shifty. Shifty guarantees that a model adheres to the fairness constraint in the case of demographic shifts in the deployment distribution.
-        image: /images/projects/profile.png
+        content: In this research paper, we examine the fairness algorithm Shifty. Shifty guarantees that a model adheres to the fairness constraint in the case of demographic shifts in the deployment distribution. As part of the Machine Learning Reproducibility Challenge 2022, this research paper was awarded by Kaggle with a prize of $10,000 in credit for the Google Cloud Platform. The paper was presented at the NeurIPS conference in 2023.
+        image: /images/logo_neurips.png
         featured:
           name: Paper
-          link: https://openreview.net/pdf?id=xEfg6h1GFmW
+          link: https://neurips.cc/virtual/2023/poster/74170
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
