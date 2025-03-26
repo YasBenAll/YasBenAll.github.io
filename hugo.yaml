@@ -134,8 +134,8 @@ params:
     content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems. This website showcases my projects, experience, and education."
     image: /images/photo.png
     bottomImage:
-      enable: true
-    # roundImage: true # Make hero image circular | default false
+      enable: false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -147,7 +147,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/YasBenAll/
         - icon: fab fa-linkedin
-          url: "https://www.linkedin.com/in/yassinbenallal/overlay/background-image/"
+          url: "https://www.linkedin.com/in/yassinbenallal/"
         # - icon: fab fa-x-twitter
         #   url: https://x.com/benallalyassin
 
@@ -212,7 +212,7 @@ params:
         featuredLink:
           enable: true
           name: "Bachelor's Thesis"
-          url: "thesis/Bachelor_Thesis.pdf"
+          url: "thesis/Bachelor_thesis.pdf"
   # Achievements
 
   # achievements:
