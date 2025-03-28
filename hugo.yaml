@@ -130,7 +130,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Yassin."
-    subtitle: "I'm an aspiring ML engineer"
+    subtitle: "I'm an aspiring Data Scientist"
     content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems. This website showcases my projects, experience, and education."
     image: /images/photo.png
     bottomImage:
