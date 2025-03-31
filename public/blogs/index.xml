@@ -6,7 +6,14 @@
     <description>Recent content in Blogs on Yassin Ben Allal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 10:00:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ghiblify the world</title>
+      <link>http://localhost:1313/blogs/test/</link>
+      <pubDate>Mon, 31 Mar 2025 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blogs/test/</guid>
+      <description>&lt;p&gt;On 27th of March, OpenAI introduced their 4o Image Generation tool. This model transforms images into a variety of artistic styles with stunning precision. Immediately, people posted pictures to X, showing ghiblified versions of their images. Everyone was stunned by the remarkable capabilities of the tool.&lt;/p&gt;&#xA;&lt;p&gt;Just like LLMs showed capabilities for coding, their image generation counterpart spark the same questions. Many people worry about job displacement for visual artists or the ethical implications of AI scraping existing artwork for reference. And it&amp;rsquo;s a reasonable concern to have. On the other hand, It could open doors for quick prototyping or concept art and help small businesses create custom visuals.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

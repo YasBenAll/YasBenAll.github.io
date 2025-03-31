@@ -1,37 +1,24 @@
 ---
-title: "Render Math With Mathjax"
-date: 2022-12-09T19:53:33+05:30
+title: "Ghiblify the world"
+date: 2025-03-31T10:00:00+01:00
 draft: true
 author: "Yassin"
 tags:
-  - Markdown syntax
-  - Mathjax
-  - example
-image: /images/mathjax.png
+image: /images/image_gen_article/collage_first.png
 description: ""
 toc: true
 mathjax: true
 ---
+On 27th of March, OpenAI introduced their 4o Image Generation tool. This model transforms images into a variety of artistic styles with stunning precision. Immediately, people posted pictures to X, showing ghiblified versions of their images. Everyone was stunned by the remarkable capabilities of the tool.
 
-## Mathjax
+Just like LLMs showed capabilities for coding, their image generation counterpart spark the same questions. Many people worry about job displacement for visual artists or the ethical implications of AI scraping existing artwork for reference. And it's a reasonable concern to have. On the other hand, It could open doors for quick prototyping or concept art and help small businesses create custom visuals. 
 
-Math equations can be rendered using [Mathjax](https://www.mathjax.org) syntax with AMS symbol support.
+I personally don't think visual artists will be losing their jobs any time soon. Creating art isn't about creating pleasing visuals alone. It's about making sequential complex design decisions. I'm not suggesting an AI tool couldn't do that, but at this point, you still want to have a human that is able to direct the creative process.  
 
-Optionally enable this on a per-page basis by adding `mathjax: true` to your frontmatter.
+Below are the prompts I used to generate these images, along with the original picture as a reference.
 
-Then, use `$$ ... $$` on a line by itself to render a block equation:
-
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | < \text{negligible} $$
-
-The raw version is:
-
-```
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | < \text{negligible} $$
-```
-
-
-Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It's easy!
-
-```
-Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It's easy!
-```
+Picture 1: Original \
+Picture 2: Create this picture in Plush Felt Puppet Art Style \
+Picture 3: Create this picture in tintin style \
+Picture 4: Create this picture in Ghibli style. \
+Picture 5: Create this picture in the style of a stop-motion lego movie. The person in the picture has dark brown hair.
