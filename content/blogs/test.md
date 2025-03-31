@@ -1,7 +1,7 @@
 ---
 title: "Ghiblify the world"
 date: 2025-03-31T10:00:00+01:00
-draft: true
+draft: false
 author: "Yassin"
 tags:
 image: /images/image_gen_article/collage_first.png
