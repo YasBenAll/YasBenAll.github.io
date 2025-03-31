@@ -1,5 +1,5 @@
 ---
-title: "Ghiblify the world"
+title: "\"Ghiblify the world...\""
 date: 2025-03-31T10:00:00+01:00
 draft: false
 author: "Yassin"
