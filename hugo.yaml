@@ -132,7 +132,7 @@ params:
     title: "Yassin."
     subtitle: "I'm an aspiring Machine Learning Engineer"
     content: "A passionate software developer with a background in Artificial Intelligence. I have recently completed my MSc in Artificial Intelligence at the Vrije Universiteit Amsterdam. I am currently looking for opportunities to apply my knowledge in the field of AI. I am particularly interested in LLMs, Reinforcement Learning, and Recommender Systems. This website showcases my projects, experience, and education."
-    image: /images/photo.png
+    image: /images/Profielfoto_ovaal.png
     bottomImage:
       enable: false
     roundImage: true # Make hero image circular | default false
